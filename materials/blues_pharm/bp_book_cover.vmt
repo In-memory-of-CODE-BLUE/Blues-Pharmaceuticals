@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+"$basetexture" "blues_pharm/bp_book_cover"
+"$envmap" "env_cubemap"
+"$envmaptint" "[0.2 0.1 0]"
+"$envmapcontrast" "1"
+"$envmapsaturation" "1"
+"$envmapfresnel" "1"
+}

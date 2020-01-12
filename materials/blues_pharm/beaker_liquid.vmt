@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+"$basetexture" "blues_pharm/beaker_liquid_color"
+"$envmap" "env_cubemap"
+"$envmaptint" "[.2 .2 .2]"
+"$envmapcontrast" "0.5"
+"$envmapsaturation" "0"
+"$envmapfresnel" "1"
+"$color2" "[1 1 1]"
+
+$nocull 0
+
+$translucent 1
+}

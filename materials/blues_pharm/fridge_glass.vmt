@@ -1,0 +1,23 @@
+"VertexLitGeneric"
+{
+"$basetexture" "blues_pharm/fridge_glass_color"
+"$envmap" "env_cubemap"
+"$envmaptint" "[1 1 1]"
+"$envmapcontrast" "0.3"
+"$envmapsaturation" "1"
+"$envmapfresnel" "1"
+"$color2" "[1 1 1]"
+"$nocull" "1"
+
+"$translucent" "1"
+
+"$surfaceprop" "glass"
+"$model" 1
+
+
+// Rim lighting parameters
+"$rimlight" "1"// To enable rim lighting (requires phong)
+"$rimlightexponent" "4"// Exponent for phong component of rim lighting
+"$rimlightboost" "1"// Boost for ambient cube component of rim lighting
+"$rimmask" "1"                    // Use the alpha channel of the $phongexponenttexture as a rim mask.
+}

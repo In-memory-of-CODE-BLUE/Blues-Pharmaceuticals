@@ -1,0 +1,20 @@
+"VertexLitGeneric"
+{
+"$basetexture" "blues_pharm/burner_floor_color"
+"$envmap" "env_cubemap"
+"$envmaptint" "[0.6 0.6 0.6]"
+"$envmapcontrast" "0.1"
+"$envmapsaturation" "0.3"
+"$envmapfresnel" "1"
+ 
+"$bumpMap""blues_pharm/burner_floor_normal"
+"$normalmapalphaenvmapmask" "1"
+
+"$surfaceprop" "rubber"
+"$model" 1
+
+// Rim lighting parameters
+"$rimlight" "1"// To enable rim lighting (requires phong)
+"$rimlightexponent" "4"// Exponent for phong component of rim lighting
+"$rimlightboost" "1"// Boost for ambient cube component of rim lightin
+}

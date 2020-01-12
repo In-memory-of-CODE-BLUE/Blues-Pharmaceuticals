@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+"$basetexture" "blues_pharm/press_exposed_metal_color"
+"$envmap" "env_cubemap"
+"$envmaptint" "[.3 .3 .3]"
+"$envmapcontrast" "0.1"
+"$envmapsaturation" "0"
+"$envmapfresnel" "1"
+"$color2" "[1 1 1]"
+ 
+"$bumpMap""blues_pharm/press_exposed_metal_normal"
+"$normalmapalphaenvmapmask" "1"
+
+"$surfaceprop" "metal"
+"$model" 1
+
+}

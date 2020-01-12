@@ -1,0 +1,28 @@
+"UnlitGeneric"
+{
+"$basetexture" "blues_pharm/ui/beam_color"
+$selfillum 1
+
+$textureoffset 0
+$alphatest 0
+$translucent 1
+$additive 1
+
+ 
+Proxies
+{
+		TextureTransform
+		{
+			translateVar $textureoffset
+			resultVar $baseTextureTransform
+		} 
+
+		TextureScroll
+		{
+			texturescrollvar $textureoffset
+			texturescrollrate 1
+			texturescrollangle 270
+		}
+}
+
+}

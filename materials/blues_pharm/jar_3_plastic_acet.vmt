@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+"$basetexture" "blues_pharm/jar_3_plastic_color"
+
+ "$color2""[0.823 0.4 0.117]"
+
+"$surfaceprop" "metal"
+"$model" 1
+
+
+// Rim lighting parameters
+"$rimlight" "1"// To enable rim lighting (requires phong)
+"$rimlightexponent" "4"// Exponent for phong component of rim lighting
+"$rimlightboost" "1"// Boost for ambient cube component of rim lighting
+"$rimmask" "1"                    // Use the alpha channel of the $phongexponenttexture as a rim mask.
+
+}

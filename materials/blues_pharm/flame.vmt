@@ -1,0 +1,20 @@
+"UnlitGeneric"
+{
+    "$basetexture" "blues_pharm/flame"
+
+     $translucent 1
+$additive 1
+     $selfillum 1
+
+ 
+"Proxies" 
+{ 
+"AnimatedTexture" 
+{ 
+"animatedTextureVar" "$basetexture" 
+"animatedTextureFrameNumVar" "$frame" 
+"animatedTextureFrameRate" "8" 
+}
+} 
+
+}

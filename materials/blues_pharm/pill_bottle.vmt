@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+"$basetexture" "blues_pharm/pill_bottle"
+"$envmap" "env_cubemap"
+"$envmaptint" "[0.6 0.4 0.1]"
+"$envmapcontrast" "1"
+"$envmapsaturation" "0.3"
+"$envmapfresnel" "1"
+"$color2" "[1 1 1]"
+
+"$bumpMap""blues_pharm/pill_bottle_normal"
+"$normalmapalphaenvmapmask" "1"
+
+
+"$surfaceprop" "metal"
+"$model" 1
+
+
+// Rim lighting parameters
+"$rimlight" "1"// To enable rim lighting (requires phong)
+"$rimlightexponent" "4"// Exponent for phong component of rim lighting
+"$rimlightboost" "1"// Boost for ambient cube component of rim lighting
+"$rimmask" "1"                    // Use the alpha channel of the $phongexponenttexture as a rim mask.
+
+}
